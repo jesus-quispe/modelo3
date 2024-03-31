@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    background-color: lightgray;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 100px;
+
+}
+.container {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider-container {
+  
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    width: 90%; 
+  
+}
+
+.element {
+    flex: 1 0 auto;
+    margin: 0 50px;
+    width: 500px;
+    height: 500px;
+}
